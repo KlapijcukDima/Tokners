@@ -1,0 +1,28 @@
+[
+  {
+    "number": "Q1",
+    "title": "Phase One",
+    "data": "0/04/2021 - 16/04/2021",
+    "course": "1 BNB = 100000 WNTR",
+    "soft-cap": "Soft cap: 5000 BNB",
+    "hard-cap": "Hard cap: 10000 BNB"
+  },
+
+  {
+    "number": "Q2",
+    "title": "Phase Two",
+    "data": "0/04/2021 - 16/04/2021",
+    "course": "1 BNB = 100000 WNTR",
+    "soft-cap": "Soft cap: 5000 BNB",
+    "hard-cap": "Hard cap: 10000 BNB"
+  },
+
+  {
+    "number": "Q3",
+    "title": "Phase Three",
+    "data": "0/04/2021 - 16/04/2021",
+    "course": "1 BNB = 100000 WNTR",
+    "soft-cap": "Soft cap: 5000 BNB",
+    "hard-cap": "Hard cap: 10000 BNB"
+  }
+]

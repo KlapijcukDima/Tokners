@@ -1,0 +1,43 @@
+[
+  {
+    "number": "Q1",
+    "year": "2021",
+    "list": {
+      "one": "Team set-up",
+      "two": "Launch of informational website"
+    }
+  },
+
+  {
+    "number": "Q2",
+    "year": "2021",
+    "list": {
+      "one": "Presale and exchange listings",
+      "two": "Blockchain development and launch",
+      "three": "Launch of our MVP",
+      "four": "Influencer agency partnerships",
+      "five": "Marketing and promotion"
+    }
+  },
+
+  {
+    "number": "Q3",
+    "year": "2021",
+    "list": {
+      "one": "Celebrity, Creator and Influencer partnerships",
+      "two": "Expansion of creator communities on our platform",
+      "three": "More Marketing and promotion"
+    }
+  },
+
+  {
+    "number": "Q4",
+    "year": "2021",
+    "list": {
+      "one": "Mainstream partnerships",
+      "two": "500 active creator communities",
+      "three": "2Million active community members",
+      "four": "More Marketing and promotion"
+    }
+  }
+]
