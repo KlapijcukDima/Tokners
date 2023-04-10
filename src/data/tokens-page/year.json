@@ -1,0 +1,58 @@
+[
+    {
+        "year": "year 1",
+        "day": "Day 1 - Day 90",
+        "tokens-day": "10M Tokens/Day",
+        "tokens": "(900M Tokens)"
+    },
+
+    {
+        "year": "year 1",
+        "day": "Day 90 - Day 365",
+        "tokens-day": "5M Tokens/Day",
+        "tokens": "(1375M Tokens)"
+    },
+
+    {
+        "year": "year 2",
+        "tokens-day": "4M Tokens/Day",
+        "tokens": "(1460M Tokens)"
+    },
+
+    {
+        "year": "year 3",
+        "tokens-day": "3M Tokens/Day",
+        "tokens": "(1095M Tokens)"
+    },
+
+
+    {
+        "year": "year 4",
+        "tokens-day": "2M Tokens/Day",
+        "tokens": "(730M Tokens)"
+    },
+
+    {
+        "year": "year 5",
+        "tokens-day": "1M Tokens/Day",
+        "tokens": "(365M Tokens)"
+    },
+
+    {
+        "year": "year 6",
+        "tokens-day": "1M Tokens/Day",
+        "tokens": "(365M Tokens)"
+    },
+
+    {
+        "year": "year 7",
+        "tokens-day": "1M Tokens/Day",
+        "tokens": "(365M Tokens)"
+    },
+
+    {
+        "year": "year 8",
+        "tokens-day": "1M Tokens/Day",
+        "tokens": "(345M Tokens)"
+    }
+]
