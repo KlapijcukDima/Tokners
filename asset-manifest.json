@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.91c0379c.css",
-    "main.js": "/Tokners/static/js/main.4b31fc86.js",
+    "main.css": "/Tokners/static/css/main.515e55ef.css",
+    "main.js": "/Tokners/static/js/main.b1ede044.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.352a85232db36276ddbb.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
+    "static/media/vector_holders.svg": "/Tokners/static/media/vector_holders.20ee105fb19d7130e32f4213c5033866.svg",
     "index.html": "/Tokners/index.html",
+    "static/media/vector_creators.svg": "/Tokners/static/media/vector_creators.62ab053309cdf20a2a43d986fbf08fb3.svg",
     "static/media/ForCreators.svg": "/Tokners/static/media/ForCreators.002c022fc43d7350b7b5807077fc2b57.svg",
     "static/media/ForHolders.svg": "/Tokners/static/media/ForHolders.77347edbb5395ae58e57008d0a713784.svg",
+    "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
-    "main.91c0379c.css.map": "/Tokners/static/css/main.91c0379c.css.map",
-    "main.4b31fc86.js.map": "/Tokners/static/js/main.4b31fc86.js.map"
+    "main.515e55ef.css.map": "/Tokners/static/css/main.515e55ef.css.map",
+    "main.b1ede044.js.map": "/Tokners/static/js/main.b1ede044.js.map"
   },
   "entrypoints": [
-    "static/css/main.91c0379c.css",
-    "static/js/main.4b31fc86.js"
+    "static/css/main.515e55ef.css",
+    "static/js/main.b1ede044.js"
   ]
 }
