@@ -13,6 +13,7 @@
 
     @media screen and (min-width: 1920px) {
       display: flex;
+      justify-content: center;
       gap: 20px;
     }
   }
@@ -20,7 +21,7 @@
   &__contents {
     background-color: rgba($color: #ffffff, $alpha: 0.05);
     border-radius: 15px;
-    max-width: 777px;
+    max-width: 637px;
 
     padding-top: 30px;
     padding-bottom: 40px;
@@ -92,6 +93,7 @@
     color: $white-text-color;
     font-size: 16px;
     font-weight: 400;
+    line-height: calc(24 / 16);
     margin-bottom: 20px;
 
     @media screen and (min-width: 1920px) {
@@ -104,13 +106,15 @@
     background: transparent;
     cursor: pointer;
     color: $green-color;
-    border-bottom: 1px solid $green-color;
-    margin-right: 6px;
+    &__underline {
+      border-bottom: 1px solid $green-color;
+      padding: 0;
+      margin-right: 6px;
+    }
   }
-
-  &__container :nth-child(2) &__button {
-    color: $blue-color;
+  &__container :nth-child(2) &__button__underline {
     border-bottom: 1px solid $blue-color;
+    color: $blue-color;
   }
 
   &__button__arrow {

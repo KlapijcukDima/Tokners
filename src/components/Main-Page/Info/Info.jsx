@@ -30,8 +30,10 @@ export const Info = ({ info }) => {
             </h1>
             <p className={scss.info__paragraph}>{itemInfo}</p>
 
-            <button className={scss.info__button}>Learn More</button>
-            <ButtonArrow className={scss.info__button__arrow} />
+            <button className={scss.info__button}>
+              <span className={scss.info__button__underline}>Learn More</span>
+              <ButtonArrow className={scss.info__button__arrow} />
+            </button>
           </div>
         ))}
       </div>
