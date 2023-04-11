@@ -73,6 +73,16 @@
        }
 }
 
+
+.header__link{
+    text-decoration: none;
+    color: $white-text-color;
+
+    &:hover{
+        color: aquamarine;
+    }
+}
+
 .header__button{
     align-items: center;
 }
