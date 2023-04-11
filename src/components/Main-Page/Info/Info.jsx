@@ -15,17 +15,19 @@ export const Info = ({ info }) => {
           <div className={scss.info__contents} key={itemFor}>
             {index % 2 === 0 ? (
               <>
-              <ForCreators className={scss.info__svg} />
-              <VectorCreators className={scss.info__vector} />
-            </>
+                <ForCreators className={scss.info__svg} />
+                <VectorCreators className={scss.info__vector} />
+              </>
             ) : index % 2 === 1 ? (
-                <>
+              <>
                 <ForHolders className={scss.info__svg} />
                 <VectorHolders className={scss.info__vector} />
               </>
             ) : null}
 
-            <h1 className={scss.info__header}>For <span className={scss.info__header__color}>{itemFor}</span></h1>
+            <h1 className={scss.info__header}>
+              For <span className={scss.info__header__color}>{itemFor}</span>
+            </h1>
             <p className={scss.info__paragraph}>{itemInfo}</p>
 
             <button className={scss.info__button}>Learn More</button>
