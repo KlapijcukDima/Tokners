@@ -4,25 +4,25 @@
 .info {
   padding-bottom: 100px;
   &__container {
-    // display: flex;
-    // flex-direction: column;
-    // max-width: 335px;
-
     @media screen and (max-width: 1919.98px) {
-      display: flex;
-      flex-direction: column;
       max-width: 335px;
     }
 
     @media screen and (min-width: 1920px) {
-      flex-direction: row;
-      max-width: 777px;
+      display: flex;
+      gap: 20px;
     }
+  }
+
+  &__contents:nth-child(2) {
+    position: relative;
+    transform: translateY(25%);
   }
 
   &__contents {
     background-color: rgba($color: #ffffff, $alpha: 0.05);
     border-radius: 15px;
+    max-width: 777px;
 
     padding-top: 30px;
     padding-bottom: 40px;
@@ -30,6 +30,8 @@
     padding-left: 30px;
 
     margin-bottom: 10px;
+    cursor: pointer;
+
     @media screen and (min-width: 1920px) {
       border-radius: 25px;
 
@@ -42,9 +44,25 @@
     }
   }
 
-  //   &__svg {
-
-  //   }
+  &__svg {
+    margin-left: -25px;
+    position: relative;
+  }
+  &__vector {
+    fill: $white-text-color;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, -330%);
+  }
+  &__vector {
+    fill: $white-text-color;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300%, -330%);
+  }
+  &__container :nth-child(2) &__vector {
+    transform: translate(-300%, -270%);
+  }
 
   &__header {
     color: $white-text-color;
@@ -58,6 +76,15 @@
     }
   }
 
+  &__header__color {
+    color: $green-color;
+    border-bottom: 4px solid $green-color;
+  }
+  &__container :nth-child(2) &__header__color {
+    color: $blue-color;
+    border-bottom: 4px solid $blue-color;
+  }
+
   &__paragraph {
     color: $white-text-color;
     font-size: 16px;
@@ -69,10 +96,26 @@
   }
 
   &__button {
+    font-size: 14px;
     border: none;
     background: transparent;
     cursor: pointer;
     color: $green-color;
     border-bottom: 1px solid $green-color;
+    margin-right: 6px;
+  }
+
+  &__container :nth-child(2) &__button {
+    color: $blue-color;
+    border-bottom: 1px solid $blue-color;
+  }
+
+  &__button__arrow {
+    fill: $green-color;
+    position: relative;
+    transform: translateY(20%);
+  }
+  &__container :nth-child(2) &__button__arrow {
+    fill: $blue-color;
   }
 }
