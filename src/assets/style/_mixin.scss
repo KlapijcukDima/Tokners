@@ -5,6 +5,7 @@
         @else if $size==tablet {
         @media screen and (max-width: 1279.98px) { @content;}
     }   
+
         @else if $size==laptop {
         @media screen and (min-width: 1280px) { @content; }
         }
