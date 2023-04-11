@@ -1,7 +1,11 @@
-import { Hero } from './Main-Page/Hero/Hero'
+import { Header } from "./Header/Header";
+
+
 
 export const App = () => {
   return (
-      <Hero />
+    <div>
+    <Header />
+    </div>
   );
 };
