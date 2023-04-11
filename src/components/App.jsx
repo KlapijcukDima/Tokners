@@ -1,3 +1,7 @@
+import { Info } from './Main-Page/Info/Info.jsx';
+
+import info from '../data/main-page/info.json';
+
 export const App = () => {
   return (
     <div
@@ -10,6 +14,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <Info info={info}/>
     </div>
   );
 };
