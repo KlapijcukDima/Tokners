@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.7be0827f.css",
-    "main.js": "/Tokners/static/js/main.1f838a57.js",
+    "main.css": "/Tokners/static/css/main.b0e8ff4f.css",
+    "main.js": "/Tokners/static/js/main.a9d05d8f.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.352a85232db36276ddbb.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
+    "static/media/reddit.svg": "/Tokners/static/media/reddit.7d0b2f1d648940188c597848344448a7.svg",
+    "static/media/github.svg": "/Tokners/static/media/github.3c08d98b69ace411ac7cc2122925e5b2.svg",
+    "static/media/instagram.svg": "/Tokners/static/media/instagram.911010cdd2f1f071279f706b6ae5eec2.svg",
     "static/media/vector_holders.svg": "/Tokners/static/media/vector_holders.20ee105fb19d7130e32f4213c5033866.svg",
+    "static/media/only_logo.svg": "/Tokners/static/media/only_logo.80517d0ea5d8966ce448ed44c199a826.svg",
     "index.html": "/Tokners/index.html",
     "static/media/vector_creators.svg": "/Tokners/static/media/vector_creators.62ab053309cdf20a2a43d986fbf08fb3.svg",
+    "static/media/medium.svg": "/Tokners/static/media/medium.a97b618f911332d00409613dabeed84c.svg",
     "static/media/ForCreators.svg": "/Tokners/static/media/ForCreators.002c022fc43d7350b7b5807077fc2b57.svg",
     "static/media/ForHolders.svg": "/Tokners/static/media/ForHolders.77347edbb5395ae58e57008d0a713784.svg",
     "static/media/close_icon.svg": "/Tokners/static/media/close_icon.74ca5babd8e734a6fb34ed4aa1a3fa31.svg",
+    "static/media/twitter.svg": "/Tokners/static/media/twitter.cada07a9b03bdfceddb9435f60e5af00.svg",
     "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
-    "main.7be0827f.css.map": "/Tokners/static/css/main.7be0827f.css.map",
-    "main.1f838a57.js.map": "/Tokners/static/js/main.1f838a57.js.map"
+    "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
+    "main.b0e8ff4f.css.map": "/Tokners/static/css/main.b0e8ff4f.css.map",
+    "main.a9d05d8f.js.map": "/Tokners/static/js/main.a9d05d8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7be0827f.css",
-    "static/js/main.1f838a57.js"
+    "static/css/main.b0e8ff4f.css",
+    "static/js/main.a9d05d8f.js"
   ]
 }
