@@ -1,7 +1,6 @@
 import scss from './Header.module.scss';
 import { Modal } from './modal-header';
 import { ReactComponent as Logo } from '../../assets/images/svg/logo.svg';
-// import { ReactComponent as Menu } from '../../assets/images/svg/burger-menu.svg';
 
 export const Header = () => {
   return (
