@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.b289f590.css",
-    "main.js": "/Tokners/static/js/main.145e7246.js",
+    "main.css": "/Tokners/static/css/main.e3024f88.css",
+    "main.js": "/Tokners/static/js/main.dde32aa7.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
     "static/media/reddit.svg": "/Tokners/static/media/reddit.7d0b2f1d648940188c597848344448a7.svg",
@@ -19,11 +19,11 @@
     "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
     "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
-    "main.b289f590.css.map": "/Tokners/static/css/main.b289f590.css.map",
-    "main.145e7246.js.map": "/Tokners/static/js/main.145e7246.js.map"
+    "main.e3024f88.css.map": "/Tokners/static/css/main.e3024f88.css.map",
+    "main.dde32aa7.js.map": "/Tokners/static/js/main.dde32aa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b289f590.css",
-    "static/js/main.145e7246.js"
+    "static/css/main.e3024f88.css",
+    "static/js/main.dde32aa7.js"
   ]
 }
