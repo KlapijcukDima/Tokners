@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.b0e8ff4f.css",
-    "main.js": "/Tokners/static/js/main.a9d05d8f.js",
-    "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.352a85232db36276ddbb.png",
+    "main.css": "/Tokners/static/css/main.b289f590.css",
+    "main.js": "/Tokners/static/js/main.145e7246.js",
+    "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
     "static/media/reddit.svg": "/Tokners/static/media/reddit.7d0b2f1d648940188c597848344448a7.svg",
     "static/media/github.svg": "/Tokners/static/media/github.3c08d98b69ace411ac7cc2122925e5b2.svg",
@@ -19,11 +19,11 @@
     "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
     "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
-    "main.b0e8ff4f.css.map": "/Tokners/static/css/main.b0e8ff4f.css.map",
-    "main.a9d05d8f.js.map": "/Tokners/static/js/main.a9d05d8f.js.map"
+    "main.b289f590.css.map": "/Tokners/static/css/main.b289f590.css.map",
+    "main.145e7246.js.map": "/Tokners/static/js/main.145e7246.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0e8ff4f.css",
-    "static/js/main.a9d05d8f.js"
+    "static/css/main.b289f590.css",
+    "static/js/main.145e7246.js"
   ]
 }
