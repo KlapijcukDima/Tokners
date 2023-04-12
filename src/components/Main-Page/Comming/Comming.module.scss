@@ -1,25 +1,47 @@
 @import '../../../assets/style/container';
+@import '../../../assets/style/mixin';
 
 .comming {
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   &__child {
     margin-right: 40px;
   }
 
   &__block {
-    width: 500px;
+    max-width: 500px;
+
+    @include for-size(laptop){
+        width: 450px;
+    }
+
+    @include for-size(desktop){
+        width: 700px;
+    }
   }
 
   &__text {
     font-family: 'Century Gothic';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     opacity: 0.6;   
     margin-bottom: 20px;
-    color: #fff;
+    color: #9FA1A6;
+
+    &_w{
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 0.6;   
+        margin-bottom: 20px;
+        color: white;
+    }
 
 
   }
@@ -27,6 +49,43 @@
 
 }
 
-.comming__text:first-child{
-    color: green;
+.comming__img_block{
+    
+    @include for-size(phone){
+        display: none;
+    }
+
+    @include for-size(tablet){
+        display: none;
+    }
+    
+    @include for-size(laptop){
+        display: block;
+    }
+
+    @include for-size(desktop){
+        display: block;
+    }
+}
+
+.logo{
+    margin-right: 24px  ;
+}
+
+.heading{
+font-size: 700;
+color: white;
+size: 48px;
+line-height: 54px;
+}
+
+  
+  .green {
+    color: white;
+  }
+  
+
+  .labka{
+    color: yellow;
+    width: 20px;
   }
