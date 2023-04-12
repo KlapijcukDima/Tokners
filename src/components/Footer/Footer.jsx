@@ -1,3 +1,4 @@
+
 import scss from '../Footer/Footer.module.scss';
 
 import { ReactComponent as Logo } from '../../assets/images/svg/logo.svg';
@@ -87,3 +88,4 @@ export const Footer = footer => {
     </footer>
   );
 };
+
