@@ -26,7 +26,17 @@ export const Info = ({ info }) => {
             ) : null}
 
             <h1 className={scss.info__header}>
-              For <span className={scss.info__header__color}>{itemFor}</span>
+              For{' '}
+              <span>
+                <a
+                  className={scss.info__header__color}
+                  href="/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  {itemFor}
+                </a>
+              </span>
             </h1>
             <p className={scss.info__paragraph}>{itemInfo}</p>
 
