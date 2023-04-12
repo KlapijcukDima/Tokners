@@ -6,7 +6,7 @@ import { Info } from "./Main-Page/Info/Info";
 // import { Coming } from './Main-Page/Coming/Coming';
 // import { Details } from './Main-Page/Details/Details';
 // import { Buy } from './Main-Page/Buy/Buy';
-import { Footer } from './Footer/Footer';
+// import { Footer } from './Footer/Footer';
 
 
 
