@@ -1,10 +1,11 @@
 import scss from './Hero.module.scss';
+import heroImgage from './../../../assets/images/png/hero-photo.png';
 
 export const Hero = hero => {
   return (
     <section className={scss.hero}>
-      <div className={scss.container}>
-        <div className={scss.hero__text}>
+      <div className={scss.hero__container}>
+        <div className={[scss.hero__text, scss.hero__text_container].join(' ')}>
           <p className={scss.hero__blue}>At Tokners we are</p>
           <h1 className={scss.hero__heading}>
             Reimagining social media through the power of the blockchain.
@@ -19,8 +20,10 @@ export const Hero = hero => {
             Learn More
           </button>
         </div>
+        <div className={scss.hero__image_container}>
+          <img className={scss.hero__image} src={heroImgage} alt="Hero Prohe" />
+        </div>
       </div>
-      <div className={scss.hero__image}></div>
     </section>
   );
 };
