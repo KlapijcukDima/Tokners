@@ -1,6 +1,7 @@
 import scss from './Header.module.scss';
+import { Modal } from './modal-header';
 import { ReactComponent as Logo } from '../../assets/images/svg/logo.svg';
-import { ReactComponent as Menu } from '../../assets/images/svg/burger-menu.svg';
+// import { ReactComponent as Menu } from '../../assets/images/svg/burger-menu.svg';
 
 export const Header = () => {
   return (
@@ -44,9 +45,7 @@ export const Header = () => {
           <button type="button" className={scss.button__sing_up}>
             Sign Up
           </button>
-          <button type="button" className={scss.header__menu}>
-            <Menu />
-          </button>
+          <Modal className={scss.header__menu} />
         </div>
       </div>
     </section>
