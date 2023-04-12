@@ -1,46 +1,76 @@
 @import '../../../assets/style/_colors.scss';
 @import '../../../assets/style/container.scss';
+@import '../../../assets/style/mixin.scss';
 
 .info {
+  //========================================================//
+  //     Info-Section                                       //
+  //========================================================//
   padding-bottom: 60px;
-  @media screen and (min-width: 1920px) {
-    padding-bottom: 175px;
+  @include for-size(phone) {
+    padding-bottom: 60px;
   }
-  &__container {
-    @media screen and (max-width: 1919.98px) {
-      max-width: 335px;
-    }
+  @include for-size(tablet) {
+    padding-bottom: 140px;
+  }
+  @include for-size(laptop) {
+    padding-bottom: 220px;
+  }
 
-    @media screen and (min-width: 1920px) {
+  &__container {
+    @include for-size(laptop) {
       display: flex;
       justify-content: center;
       gap: 20px;
     }
   }
 
+  //========================================================//
+  //     Contents                                           //
+  //========================================================//
   &__contents {
     background-color: rgba($color: #ffffff, $alpha: 0.05);
-    border-radius: 15px;
-    max-width: 637px;
-
-    padding-top: 30px;
-    padding-bottom: 40px;
-    padding-right: 25px;
-    padding-left: 30px;
-
-    margin-bottom: 10px;
-
-    &:last-child {
-      margin-bottom: 0;
+    @include for-size(phone) {
+      border-radius: 15px;
+      padding-top: 30px;
+      padding-bottom: 40px;
+      padding-right: 25px;
+      padding-left: 30px;
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
-    @media screen and (min-width: 1920px) {
+    @include for-size(tablet) {
+      border-radius: 20px;
+      padding-top: 40px;
+      padding-bottom: 50px;
+      padding-right: 45px;
+      padding-left: 40px;
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    @include for-size(laptop) {
+      max-width: 490px;
       border-radius: 25px;
-
+      padding-top: 50px;
+      padding-bottom: 45px;
+      padding-right: 60px;
+      padding-left: 60px;
+      margin-bottom: 0;
+      &:nth-child(2) {
+        position: relative;
+        transform: translateY(25%);
+      }
+    }
+    @include for-size(desktop) {
+      max-width: 777px;
       padding-top: 60px;
       padding-bottom: 55px;
       padding-right: 70px;
       padding-left: 70px;
-
       &:nth-child(2) {
         position: relative;
         transform: translateY(25%);
@@ -48,6 +78,9 @@
     }
   }
 
+  //========================================================//
+  //     Svg, Vector, Text                                  //
+  //========================================================//
   &__svg {
     margin-left: -25px;
     position: relative;
@@ -74,7 +107,7 @@
     font-weight: 700px;
     margin-bottom: 10px;
 
-    @media screen and (min-width: 1920px) {
+    @include for-size(desktop) {
       font-size: 36px;
       margin-bottom: 20px;
     }
@@ -96,15 +129,18 @@
     line-height: calc(24 / 16);
     margin-bottom: 20px;
 
-    @media screen and (min-width: 1920px) {
+    @include for-size(desktop) {
     }
   }
+
+  //========================================================//
+  //     Buttons                                            //
+  //========================================================//
 
   &__button {
     font-size: 14px;
     border: none;
     background: transparent;
-    cursor: pointer;
     color: $green-color;
     &__underline {
       border-bottom: 1px solid $green-color;
