@@ -1,0 +1,45 @@
+@import '../../../assets/style/colors';
+@import '../../../assets/style/container';
+@import '../../../assets/style/mixin';
+
+//========================================================//
+//     Services                                           //
+//========================================================//
+
+.services {
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  padding-bottom: 100px;
+
+  &__images {
+    margin-bottom: 40px;
+  }
+  &__text {
+    color: $white-text-color;
+  }
+
+  &__contents {
+    @include for-size(desktop) {
+      max-width: 375px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    list-style: inherit;
+  }
+
+  &__item {
+    color: $tokners-text-color;
+    font-size: 18px;
+
+    &::before {
+      margin-right: 5px;
+      font-size: 12px;
+    }
+  }
+}
