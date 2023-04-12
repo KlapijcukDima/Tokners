@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.1e02aee0.css",
+    "main.css": "/Tokners/static/css/main.cf8e8a75.css",
     "main.js": "/Tokners/static/js/main.6ba6dcca.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.352a85232db36276ddbb.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
@@ -12,11 +12,11 @@
     "static/media/close_icon.svg": "/Tokners/static/media/close_icon.74ca5babd8e734a6fb34ed4aa1a3fa31.svg",
     "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
-    "main.1e02aee0.css.map": "/Tokners/static/css/main.1e02aee0.css.map",
+    "main.cf8e8a75.css.map": "/Tokners/static/css/main.cf8e8a75.css.map",
     "main.6ba6dcca.js.map": "/Tokners/static/js/main.6ba6dcca.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e02aee0.css",
+    "static/css/main.cf8e8a75.css",
     "static/js/main.6ba6dcca.js"
   ]
 }
