@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from '../../assets/images/svg/logo.svg';
 
 export const Header = () => {
   return (
-    <section className={scss.section}>
+    <section>
       <div className={[scss.main__block, scss.container].join(' ')}>
         <div className={scss.left__block}>
           <div className={scss.header__block}>
