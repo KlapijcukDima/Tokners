@@ -1,6 +1,8 @@
 @import '../../assets/style/colors';
 @import '../../assets/style/mixin';
 @import '../../assets/style/container';
+@import '../../assets/style/button';
+
 
 .logo {
   @include for-size(phone) {
@@ -95,7 +97,7 @@
   }
 }   
 
-.button {
+.button__sign_in {
   margin-right: 15px;
   border: none;
   color: $white-text-color;
@@ -116,7 +118,7 @@
 }
 }
 
-.button__sing_up {
+.button{
   color: $white-text-color;
   outline: none;
   background-color: transparent;

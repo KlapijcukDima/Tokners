@@ -134,6 +134,7 @@ import scss from './Comming.module.scss';
 import { ReactComponent as Logo } from '../../../assets/images/svg/only_logo.svg';
 import { ReactComponent as LogoM } from '../../../assets/images/svg/logo__mibile.svg';
 import { useState } from 'react';
+import handImg from './../../../assets/images/png/service_phone.png';
 
 export const Coming = ({ coming }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -160,18 +161,24 @@ export const Coming = ({ coming }) => {
           }) => {
             return (
               <div key={title} className={scss.comming__block}>
-
                 <h2 className={scss.heading}>
                   <Logo width="38" height="32" className={scss.logo} />
                   {title}
                 </h2>
-                <LogoM className={scss.logo__m}/> 
+                <LogoM className={scss.logo__m} />
                 <h2 className={scss.heading__mobile}>Weentar is coming</h2>
                 <p className={`${scss.comming__text_w} ${scss.green}`}>
-                 {paragraph1}
+                  {paragraph1}
                 </p>
-                <p className={`${scss.comming__text} ${scss.green} ${scss.comming__shadow}` }>{paragraph2}<div className={scss.shadow__text}></div></p>
-                
+                <p className={`${scss.comming__text} ${scss.comming__shadow}`}>
+                  {paragraph2}
+                  {!isExpanded ? (
+                    <div className={scss.shadow__text}></div>
+                  ) : null}
+                </p>
+
+                {/* <p className={`${scss.comming__text} ${scss.green} ${scss.comming__shadow}` }>{paragraph2}<div className={scss.shadow__text}></div></p> */}
+
                 {!isExpanded && (
                   <button onClick={toggleExpanded} className={scss.comming__button}>
                     Read More
@@ -185,11 +192,14 @@ export const Coming = ({ coming }) => {
                     </p>
                     <p className={scss.comming__text}>{paragraph5}</p>
                     <p className={`${scss.comming__text} ${scss.green}`}>
-                      <span className={scss.labka}>“</span>"{paragraph6}"
+                      <span className={scss.labka}>“ </span>"{paragraph6}"
                     </p>
                     <p className={scss.comming__text}>{paragraph7}</p>
                     <p className={scss.comming__text}>{paragraph8}</p>
-                    <button onClick={toggleExpanded} className={scss.comming__button}>
+                    <button
+                      onClick={toggleExpanded}
+                      className={scss.comming__button}
+                    >
                       Hide
                     </button>
                   </>
@@ -200,14 +210,10 @@ export const Coming = ({ coming }) => {
         )}
       </div>
       <div className={scss.comming__img_block}>
-        <img
-          src="https://lh3.googleusercontent.com/bi-FFv65o__QzOJ81VzYY-65XGyJIxMq13SdAt48-raWLTYE2JYFLkdL-dYaSPKdVXp4jZ47AvzjBt2p67ngFPY8j0gmnmeDXUazjTGD"
-          alt=""
-          width="891"
-          height="928"
-        />
+        <img className={scss.comming__img} src={handImg} alt="" />
+        <div className={scss.comming__img_background}>
+        </div>
       </div>
     </div>
   );
-} 
-
+};

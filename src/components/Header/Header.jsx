@@ -38,10 +38,10 @@ export const Header = () => {
         </div>
 
         <div className={scss.header__button}>
-          <button type="button" className={scss.button}>
+          <button type="button" className={scss.button__sign_in}>
             Sign In
           </button>
-          <button type="button" className={scss.button__sing_up}>
+          <button type="button" className={scss.button}>
             Sign Up
           </button>
           <Modal className={scss.header__menu} />
