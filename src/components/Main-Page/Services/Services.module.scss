@@ -7,7 +7,18 @@
 //========================================================//
 
 .services {
-  padding-bottom: 100px;
+  @include for-size(phone) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @include for-size(tablet) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @include for-size(laptop) {
+    padding-top: 210px;
+    padding-bottom: 100px;
+  }
 
   &__container {
     @include for-size(phone) {
@@ -34,7 +45,9 @@
       flex-direction: column;
       justify-content: center;
       margin-bottom: 40px;
-      max-width: 335px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
     @include for-size(tablet) {
       margin-bottom: 40px;
@@ -66,7 +79,7 @@
     position: relative;
     &__container {
       position: absolute;
-      transform: translate(115px, 50px);
+      transform: translate(115px, 33px);
       margin-bottom: 50px;
     }
     &__dot {
