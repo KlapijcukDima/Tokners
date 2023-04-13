@@ -7,7 +7,12 @@
   justify-content: center;
 
   &__child {
-    margin-right: 40px;
+    margin-right: 0;
+
+
+    @include for-size(laptop){
+        margin-right: 40px;
+    }
   }
 
   &__block {
