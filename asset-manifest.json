@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.c862bf0a.css",
-    "main.js": "/Tokners/static/js/main.8c346287.js",
+    "main.css": "/Tokners/static/css/main.7655b141.css",
+    "main.js": "/Tokners/static/js/main.1f9a85e8.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
+    "static/media/service_phone.png": "/Tokners/static/media/service_phone.02d76496113a4c032259.png",
     "static/media/different-color-mobile.png": "/Tokners/static/media/different-color-mobile.7753310e55f208cbe38b.png",
     "static/media/different-color.png": "/Tokners/static/media/different-color.0a4ae7e8cd4ec52ac9cc.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
@@ -24,11 +25,11 @@
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
     "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
     "static/media/service_dot.svg": "/Tokners/static/media/service_dot.f06e48ec96244698cadaabb4eb611b32.svg",
-    "main.c862bf0a.css.map": "/Tokners/static/css/main.c862bf0a.css.map",
-    "main.8c346287.js.map": "/Tokners/static/js/main.8c346287.js.map"
+    "main.7655b141.css.map": "/Tokners/static/css/main.7655b141.css.map",
+    "main.1f9a85e8.js.map": "/Tokners/static/js/main.1f9a85e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c862bf0a.css",
-    "static/js/main.8c346287.js"
+    "static/css/main.7655b141.css",
+    "static/js/main.1f9a85e8.js"
   ]
 }
