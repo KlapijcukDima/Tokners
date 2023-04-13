@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.7655b141.css",
-    "main.js": "/Tokners/static/js/main.1f9a85e8.js",
+    "main.css": "/Tokners/static/css/main.f9dc6380.css",
+    "main.js": "/Tokners/static/js/main.081f545e.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/service_phone.png": "/Tokners/static/media/service_phone.02d76496113a4c032259.png",
     "static/media/different-color-mobile.png": "/Tokners/static/media/different-color-mobile.7753310e55f208cbe38b.png",
@@ -13,7 +13,10 @@
     "static/media/instagram.svg": "/Tokners/static/media/instagram.911010cdd2f1f071279f706b6ae5eec2.svg",
     "static/media/vector_holders.svg": "/Tokners/static/media/vector_holders.20ee105fb19d7130e32f4213c5033866.svg",
     "static/media/only_logo.svg": "/Tokners/static/media/only_logo.80517d0ea5d8966ce448ed44c199a826.svg",
-    "static/media/service_q.svg": "/Tokners/static/media/service_q.3cffa6fc5bf94e1ac21e88e0190ef54f.svg",
+    "static/media/service_q_red.svg": "/Tokners/static/media/service_q_red.d3265466c6cd4b2d4f998874f31978ce.svg",
+    "static/media/service_q_blue.svg": "/Tokners/static/media/service_q_blue.e8325a541e4d4596caad95f5444abb94.svg",
+    "static/media/service_q_green.svg": "/Tokners/static/media/service_q_green.3cffa6fc5bf94e1ac21e88e0190ef54f.svg",
+    "static/media/service_q_yellow.svg": "/Tokners/static/media/service_q_yellow.6f196f51ef700a8d5e0c6be8c2c6accc.svg",
     "index.html": "/Tokners/index.html",
     "static/media/vector_creators.svg": "/Tokners/static/media/vector_creators.62ab053309cdf20a2a43d986fbf08fb3.svg",
     "static/media/medium.svg": "/Tokners/static/media/medium.a97b618f911332d00409613dabeed84c.svg",
@@ -24,12 +27,12 @@
     "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
     "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
-    "static/media/service_dot.svg": "/Tokners/static/media/service_dot.f06e48ec96244698cadaabb4eb611b32.svg",
-    "main.7655b141.css.map": "/Tokners/static/css/main.7655b141.css.map",
-    "main.1f9a85e8.js.map": "/Tokners/static/js/main.1f9a85e8.js.map"
+    "static/media/service_dot.svg": "/Tokners/static/media/service_dot.0117ae80abd533fced3b96160203920c.svg",
+    "main.f9dc6380.css.map": "/Tokners/static/css/main.f9dc6380.css.map",
+    "main.081f545e.js.map": "/Tokners/static/js/main.081f545e.js.map"
   },
   "entrypoints": [
-    "static/css/main.7655b141.css",
-    "static/js/main.1f9a85e8.js"
+    "static/css/main.f9dc6380.css",
+    "static/js/main.081f545e.js"
   ]
 }
