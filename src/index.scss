@@ -1,6 +1,5 @@
 @import-normalize;
 
-@import url('https://fonts.cdnfonts.com/css/century-gothic?styles=24895,24898,24896,24897');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @import './assets/style/colors';
@@ -9,14 +8,14 @@
 
 body {
   margin: 0;
-  font-family: 'Century Gothic', 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0F1320;
 }
 
 code {
-  font-family:'Century Gothic', 'Poppins' sans-serif;
+  font-family:'Poppins' sans-serif;
 }
 
 a {
