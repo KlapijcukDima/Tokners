@@ -7,39 +7,102 @@
 //========================================================//
 
 .services {
-  .container {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-  }
   padding-bottom: 100px;
 
-  &__images {
-    margin-bottom: 40px;
-  }
-  &__text {
-    color: $white-text-color;
-  }
-
-  &__contents {
+  &__container {
+    @include for-size(phone) {
+    }
+    @include for-size(tablet) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    @include for-size(laptop) {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
     @include for-size(desktop) {
-      max-width: 375px;
+      justify-content: center;
+      gap: 46px;
     }
   }
 
-  &__list {
+  &__contents {
+    @include for-size(phone) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 40px;
+      max-width: 335px;
+    }
+    @include for-size(tablet) {
+      margin-bottom: 40px;
+      min-width: 340px;
+      max-width: 340px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &:nth-child(3) {
+        margin-bottom: 0;
+      }
+    }
+    @include for-size(laptop) {
+      margin-bottom: 0;
+      max-width: 290px;
+      min-width: 290px;
+    }
+    @include for-size(desktop) {
+      margin-bottom: 0;
+      max-width: 375px;
+      min-width: 375px;
+    }
+  }
+
+  &__images {
     display: flex;
-    flex-direction: column;
-    list-style: inherit;
+    align-items: center;
+    margin-left: -20px;
+    position: relative;
+    &__container {
+      position: absolute;
+      transform: translate(115px, 50px);
+      margin-bottom: 50px;
+    }
+    &__dot {
+      margin-bottom: 6px;
+      &__green {
+        fill: #22a75d;
+      }
+      &__blue {
+        fill: #2278d4;
+      }
+      &__yellow {
+        fill: #ffd100;
+      }
+      &__red {
+        fill: #e20613;
+      }
+    }
+  }
+
+  &__title {
+    position: absolute;
+    transform: translate(40px, -15px);
+    font-weight: 700px;
+    font-size: 26px;
+  }
+
+  &__text {
+    color: $white-text-color;
+    font-size: 18px;
+    font-weight: 700px;
   }
 
   &__item {
     color: $tokners-text-color;
     font-size: 18px;
-
-    &::before {
-      margin-right: 5px;
-      font-size: 12px;
-    }
+    font-weight: 400px;
+    line-height: calc(34 / 18);
   }
 }
