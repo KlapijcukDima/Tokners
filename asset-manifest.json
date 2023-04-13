@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.f9dc6380.css",
+    "main.css": "/Tokners/static/css/main.63a6ece3.css",
     "main.js": "/Tokners/static/js/main.081f545e.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/service_phone.png": "/Tokners/static/media/service_phone.02d76496113a4c032259.png",
@@ -28,11 +28,11 @@
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
     "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
     "static/media/service_dot.svg": "/Tokners/static/media/service_dot.0117ae80abd533fced3b96160203920c.svg",
-    "main.f9dc6380.css.map": "/Tokners/static/css/main.f9dc6380.css.map",
+    "main.63a6ece3.css.map": "/Tokners/static/css/main.63a6ece3.css.map",
     "main.081f545e.js.map": "/Tokners/static/js/main.081f545e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9dc6380.css",
+    "static/css/main.63a6ece3.css",
     "static/js/main.081f545e.js"
   ]
 }
