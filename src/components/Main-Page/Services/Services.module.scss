@@ -30,7 +30,6 @@
 
   &__container {
     @include for-size(phone) {
-      max-width: 375px;
       padding-left: 30px;
       padding-right: 15px;
       margin: 0 auto;
