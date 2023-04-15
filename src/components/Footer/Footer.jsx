@@ -1,4 +1,3 @@
-
 import scss from '../Footer/Footer.module.scss';
 
 import { ReactComponent as Logo } from '../../assets/images/svg/logo.svg';
@@ -13,64 +12,71 @@ export const Footer = footer => {
   return (
     <footer className={scss.footer}>
       <div className={[scss.footer__container, scss.container].join(' ')}>
-        <div className={scss.gap}>
+        <div>
           <div className={scss.footer__navigation__container}>
             <ul className={scss.footer__navigation}>
-              <li className={scss.footer__item}>Our team</li>
-              <li className={scss.footer__item}>
-                <span className={scss.footer__item__decoration}>/</span>
+              <a href="/">
+                <li className={scss.footer__item}>Our team</li>
+              </a>
+              <li className={scss.decoration}>
+                <span>/</span>
               </li>
-              <li className={scss.footer__item}>Tokens</li>
-              <li className={scss.footer__item}>
-                <span className={scss.footer__item__decoration}>/</span>
+              <a href="/">
+                <li className={scss.footer__item}>Tokens</li>
+              </a>
+
+              <li className={scss.decoration}>
+                <span>/</span>
               </li>
-              <li className={scss.footer__item}>Connect wallet</li>
-              <li className={scss.footer__item}>
-                <span className={scss.footer__item__decoration}>/</span>
+              <a href="/">
+                <li className={scss.footer__item}>Connect wallet</li>
+              </a>
+
+              <li className={scss.decoration}>
+                <span>/</span>
               </li>
-              <li className={scss.footer__item}>Lightpaper</li>
+              <a href="/">
+                <li className={scss.footer__item}>Lightpaper</li>
+              </a>
             </ul>
           </div>
 
           <div className={scss.contents}>
             <div className={scss.contents__container}>
-              <Logo className={scss.contents__logo} />
+              <a href="/">
+                <Logo className={scss.contents__logo} />
+              </a>
             </div>
 
             <div className={scss.contents__container}>
               <ul className={scss.contents__list}>
                 <li className={scss.contents__item}>
-                  <a href="/">
+                  <a className={scss.contents__link} href="/">
                     <Twitter className={scss.contents__social} />
                   </a>
                 </li>
                 <li className={scss.contents__item}>
-                  <a href="/">
+                  <a className={scss.contents__link} href="/">
                     <Telegram className={scss.contents__social} />
                   </a>
                 </li>
                 <li className={scss.contents__item}>
-                  <a href="/">
-                    <Instagram
-                      className={[
-                        scss.contents__social,
-                        scss.contents__social__instagram,
-                      ].join(' ')}
-                    />
+                  <a className={scss.contents__link} href="/">
+                    <Instagram className={scss.contents__social} />
                   </a>
                 </li>
                 <li className={scss.contents__item}>
-                  <a href="/">
+                  <a className={scss.contents__link} href="/">
                     <Medium className={scss.contents__social} />
                   </a>
                 </li>
                 <li className={scss.contents__item}>
-                  <a href="/">
+                  <a className={scss.contents__link} href="/">
                     <Github className={scss.contents__social} />
                   </a>
                 </li>
                 <li className={scss.contents__item}>
-                  <a href="/">
+                  <a className={scss.contents__link} href="/">
                     <Reddit className={scss.contents__social} />
                   </a>
                 </li>
@@ -88,4 +94,3 @@ export const Footer = footer => {
     </footer>
   );
 };
-

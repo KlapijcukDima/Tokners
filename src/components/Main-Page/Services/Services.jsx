@@ -1,15 +1,15 @@
 import scss from './Services.module.scss';
-
 import { ReactComponent as ServiceQGreen } from '../../../assets/images/svg/service_q_green.svg';
 import { ReactComponent as ServiceQBlue } from '../../../assets/images/svg/service_q_blue.svg';
 import { ReactComponent as ServiceQYellow } from '../../../assets/images/svg/service_q_yellow.svg';
 import { ReactComponent as ServiceQRed } from '../../../assets/images/svg/service_q_red.svg';
-
 import { ReactComponent as ServiceDot } from '../../../assets/images/svg/service_dot.svg';
+import { ReactComponent as VectorEdge } from '../../../assets/images/svg/vector_edge.svg';
 
 export const Services = ({ services }) => {
   return (
     <section className={scss.services}>
+      <VectorEdge className={scss.services__vector}/>
       <div className={[scss.container, scss.services__container].join(' ')}>
         {services.map(
           ({ number: itemNumber, year: itemYear, list: itemList }, index) => (

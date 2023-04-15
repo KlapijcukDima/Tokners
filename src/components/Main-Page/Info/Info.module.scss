@@ -23,9 +23,6 @@
       justify-content: center;
       gap: 20px;
     }
-    // @include for-size(desktop) {
-    //   max-width: 777px;
-    // }
   }
 
   //========================================================//
@@ -109,10 +106,12 @@
     font-size: 28px;
     font-weight: 700px;
     margin-bottom: 10px;
+    line-height: calc(54 / 28);
 
     @include for-size(desktop) {
       font-size: 36px;
       margin-bottom: 20px;
+      line-height: calc(54 / 36);
     }
   }
 
@@ -131,9 +130,6 @@
     font-weight: 400;
     line-height: calc(24 / 16);
     margin-bottom: 20px;
-
-    @include for-size(desktop) {
-    }
   }
 
   //========================================================//
