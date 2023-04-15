@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.5b531e9f.css",
-    "main.js": "/Tokners/static/js/main.b2d89840.js",
+    "main.css": "/Tokners/static/css/main.6b4b01ce.css",
+    "main.js": "/Tokners/static/js/main.9ca47dc9.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/service_phone.png": "/Tokners/static/media/service_phone.02d76496113a4c032259.png",
     "static/media/different-color-mobile.png": "/Tokners/static/media/different-color-mobile.7753310e55f208cbe38b.png",
     "static/media/different-color.png": "/Tokners/static/media/different-color.0a4ae7e8cd4ec52ac9cc.png",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
+    "static/media/instagram.svg": "/Tokners/static/media/instagram.a71cf1d4f2d1d85f7efa18e1d79c2c30.svg",
     "static/media/logo__mibile.svg": "/Tokners/static/media/logo__mibile.76d0b79374092597d2e275996d82eada.svg",
     "static/media/reddit.svg": "/Tokners/static/media/reddit.7d0b2f1d648940188c597848344448a7.svg",
     "static/media/github.svg": "/Tokners/static/media/github.3c08d98b69ace411ac7cc2122925e5b2.svg",
-    "static/media/instagram.svg": "/Tokners/static/media/instagram.911010cdd2f1f071279f706b6ae5eec2.svg",
     "static/media/vector_holders.svg": "/Tokners/static/media/vector_holders.20ee105fb19d7130e32f4213c5033866.svg",
     "static/media/only_logo.svg": "/Tokners/static/media/only_logo.80517d0ea5d8966ce448ed44c199a826.svg",
     "static/media/service_q_green.svg": "/Tokners/static/media/service_q_green.362b8b84bb2492fc8aaf04b417ae765f.svg",
@@ -27,14 +27,15 @@
     "static/media/arrow-right.svg": "/Tokners/static/media/arrow-right.00647817771cf5334c20a798eaec583d.svg",
     "static/media/burger-menu.svg": "/Tokners/static/media/burger-menu.3cf0da537516a16a1e680c3c9ab2455c.svg",
     "static/media/telegram.svg": "/Tokners/static/media/telegram.5e5136d9f92acb7a18de5954aab0a054.svg",
+    "static/media/vector_edge.svg": "/Tokners/static/media/vector_edge.3f55d1dee49b88e1d45b0ef4d32c3355.svg",
     "static/media/buy_arrow_green.svg": "/Tokners/static/media/buy_arrow_green.154c4398ccd356f0569f559a5999a2d8.svg",
     "static/media/buy_arrow_yellow.svg": "/Tokners/static/media/buy_arrow_yellow.663e7220f4c5d55c568ed4fe2f65c880.svg",
     "static/media/service_dot.svg": "/Tokners/static/media/service_dot.0117ae80abd533fced3b96160203920c.svg",
-    "main.5b531e9f.css.map": "/Tokners/static/css/main.5b531e9f.css.map",
-    "main.b2d89840.js.map": "/Tokners/static/js/main.b2d89840.js.map"
+    "main.6b4b01ce.css.map": "/Tokners/static/css/main.6b4b01ce.css.map",
+    "main.9ca47dc9.js.map": "/Tokners/static/js/main.9ca47dc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b531e9f.css",
-    "static/js/main.b2d89840.js"
+    "static/css/main.6b4b01ce.css",
+    "static/js/main.9ca47dc9.js"
   ]
 }
