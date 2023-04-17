@@ -12,6 +12,7 @@ export const Coming = ({ coming }) => {
   };
 
   return (
+    <section className={scss.comming__section}>
     <div className={[scss.comming, scss.container].join(' ')}>
       <div className={scss.comming__child}>
         {coming.map(
@@ -83,5 +84,6 @@ export const Coming = ({ coming }) => {
         </div>
       </div>
     </div>
+  </section>
   );
 };
