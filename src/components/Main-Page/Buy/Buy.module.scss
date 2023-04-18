@@ -11,7 +11,7 @@
     }
 
     @include for-size(desktop) {
-      padding-bottom: 170px;
+      padding-bottom: 150px;
     }
   }
 
@@ -76,6 +76,26 @@
     }
   }
 
+  &:nth-child(1) {
+    @include for-size(laptop) {
+      .card__text {
+        width: 270px;
+      }
+      .card__container {
+        padding: 60px 64px;
+      }
+    }
+
+    @include for-size(desktop) {
+      .card__text {
+        width: 270px;
+      }
+      .card__container {
+        padding: 99px 116px 99px 133px;
+      }
+    }
+  }
+
   &__container {
     background-color: $comming-img-background;
     border-radius: 25px;
@@ -86,7 +106,7 @@
 
     @include for-size(laptop) {
       position: relative;
-      padding: 60px 80px;
+      padding: 60px 70px;
     }
 
     @include for-size(desktop) {
@@ -118,6 +138,13 @@
     font-size: 18px;
     line-height: 24px;
     color: $white-text-color;
+    @include for-size(laptop) {
+      width: 260px;
+    }
+
+    @include for-size(desktop) {
+      width: 261px;
+    }
   }
 
   &__icon_container {
