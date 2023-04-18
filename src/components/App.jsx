@@ -5,7 +5,7 @@ import { Different } from './Main-Page/Different/Different';
 import { Services } from './Main-Page/Services/Services';
 import { Coming } from './Main-Page/Comming/Comming';
 import { Details } from './Main-Page/Details/Details';
-// import { Buy } from './Main-Page/Buy/Buy';
+import { Buy } from './Main-Page/Buy/Buy';
 import { Footer } from './Footer/Footer';
 import { Year } from './Tokens-Page/Year/Year';
 
@@ -27,13 +27,6 @@ export const App = () => {
       <Services services={services}/>
       <Coming coming={comming}/>
       <Details details={details}/>
-      {/* <Buy /> */}
-       <Footer />
-      <Info info={info} />
-      <Different different={different} />
-      <Services services={services} />
-      <Coming coming={comming} />
-      {/* <Details /> */}
       <Buy buy={buy}/>
       <Footer />
       <Year year={year}/>
