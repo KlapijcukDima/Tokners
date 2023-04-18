@@ -19,10 +19,11 @@
 
   @include for-size(laptop) {
     flex-direction: row;
-    gap: 0;
+    gap: 170px;
   }
 
   @include for-size(desktop) {
+    gap: 39px;
   }
   
 

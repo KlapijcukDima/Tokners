@@ -7,6 +7,7 @@ import { Coming } from './Main-Page/Comming/Comming';
 // import { Details } from './Main-Page/Details/Details';
 import { Buy } from './Main-Page/Buy/Buy';
 import { Footer } from './Footer/Footer';
+import { Year } from './Tokens-Page/Year/Year';
 
 import buy from '../data/main-page/buy.json';
 import comming from '../data/main-page/comming.json';
@@ -14,6 +15,7 @@ import comming from '../data/main-page/comming.json';
 import different from '../data/main-page/different.json';
 import info from '../data/main-page/info.json';
 import services from '../data/main-page/services.json';
+import year from '../data/tokens-page/year.json';
 
 export const App = () => {
   return (
@@ -27,6 +29,7 @@ export const App = () => {
       {/* <Details /> */}
       <Buy buy={buy}/>
       <Footer />
+      <Year year={year}/>
     </div>
   );
 };
