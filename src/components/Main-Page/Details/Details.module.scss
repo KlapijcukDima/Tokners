@@ -1,0 +1,86 @@
+@import '../../../assets/style/colors';
+@import '../../../assets/style/container';
+@import '../../../assets/style/mixin';
+
+.title__text {
+  color: $presale-text-color;
+}
+
+.details {
+  padding-bottom: 160px;
+
+  &__contens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__container {
+    background-color: $white-text-color;
+    width: 510px;
+    height: 585px;
+    border-radius: 25px;
+    padding: 57px 92px 87px 96px;
+
+    &__first {
+      margin-bottom: 70px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    // &__secont {
+    // }
+  }
+
+  &__header {
+    color: $white-text-color;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: calc(54 / 48);
+
+    &__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  }
+
+    &__number {
+        position: relative;
+    }
+    &__image {
+        position: absolute;
+    }
+
+  &__caption {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: calc(54 / 32);
+
+    margin-bottom: 10px;
+  }
+
+  &__cource {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: calc(20 / 20);
+
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__cap {
+    font-weight: 400;
+  }
+}

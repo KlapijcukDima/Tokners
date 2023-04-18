@@ -1,0 +1,38 @@
+@import '../style/colors';
+
+&__item {
+  position: relative;
+  color: $white-text-color;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  transition: letter-spacing 0.3s ease-in-out;
+  &:hover,
+  &:focus,
+  &:active {
+    letter-spacing: 5px;
+    color: $yellow-color;
+  }
+
+  &:after,
+  &:before {
+    backface-visibility: hidden;
+    border: 1px solid rgba($yellow-color, 0);
+
+    content: ' ';
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: all 280ms ease-in-out;
+    width: 0;
+  }
+
+  &:hover:after,
+  &:hover:before,
+  &:focus:after,
+  &:focus:before {
+    backface-visibility: hidden;
+    border-color: $yellow-color;
+    transition: width 350ms ease-in-out;
+    width: 100%;
+  }
+}
