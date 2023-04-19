@@ -7,51 +7,66 @@
 }
 
 .details {
-  padding-bottom: 160px;
+  padding-bottom: 220px;
 
   &__contens {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+    // &:nth-child(2) {
+    //   position: relative;
+    //   transform: translateY(25%);
+    // }
   }
 
   &__container {
     background-color: $white-text-color;
-    width: 510px;
-    height: 585px;
     border-radius: 25px;
-    padding: 57px 92px 87px 96px;
+    padding: 100px 92px 92px 96px;
 
     &__first {
-      margin-bottom: 70px;
       display: flex;
+      align-items: center;
       flex-direction: column;
+      min-width: 323px;
     }
 
-    // &__secont {
-    // }
+    &__second {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
+  &__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transform: translate(0px, -61px);
+  }
+
+  &__header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   &__header {
     color: $white-text-color;
     font-size: 48px;
     font-weight: 700;
     line-height: calc(54 / 48);
-
-    &__container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-    }
   }
 
-    &__number {
-        position: relative;
-    }
-    &__image {
-        position: absolute;
-    }
+  &__number {
+    position: relative;
+  }
+  &__image {
+    position: absolute;
+    z-index: 1;
+  }
 
   &__caption {
     font-size: 32px;
@@ -59,6 +74,16 @@
     line-height: calc(54 / 32);
 
     margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(20 / 16);
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   &__cource {
@@ -69,18 +94,14 @@
     margin-bottom: 20px;
   }
 
-  &__text {
+  &__cap {
     font-size: 16px;
     font-weight: 700;
-
-    margin-bottom: 10px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
+    line-height: calc(20 / 16);
   }
 
-  &__cap {
-    font-weight: 400;
+  &__button {
+    width: 140px;
+    height: 60px;
   }
 }
