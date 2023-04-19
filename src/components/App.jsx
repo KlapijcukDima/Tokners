@@ -4,10 +4,8 @@ import { Info } from './Main-Page/Info/Info';
 import { Different } from './Main-Page/Different/Different';
 import { Services } from './Main-Page/Services/Services';
 import { Coming } from './Main-Page/Comming/Comming';
-// import { Details } from './Main-Page/Details/Details';
 import { Buy } from './Main-Page/Buy/Buy';
 import { Details } from './Main-Page/Details/Details';
-import { Buy } from './Main-Page/Buy/Buy';
 import { Footer } from './Footer/Footer';
 import { Year } from './Tokens-Page/Year/Year';
 
@@ -32,8 +30,6 @@ export const App = () => {
       <Buy buy={buy}/>
       <Footer />
       <Year year={year}/>
-      <Details details={details}/>
-      {/* <Buy /> */}
     </div>
   );
 };
