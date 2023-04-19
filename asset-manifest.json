@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.0b71509f.css",
-    "main.js": "/Tokners/static/js/main.a223ffca.js",
+    "main.css": "/Tokners/static/css/main.12f4f7a1.css",
+    "main.js": "/Tokners/static/js/main.7b932d20.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/service_phone.png": "/Tokners/static/media/service_phone.02d76496113a4c032259.png",
     "static/media/different-color-mobile.png": "/Tokners/static/media/different-color-mobile.7753310e55f208cbe38b.png",
@@ -10,7 +10,10 @@
     "static/media/02.svg": "/Tokners/static/media/02.8701b756a95b8d06cf88e9fe611ab7b0.svg",
     "static/media/logo.svg": "/Tokners/static/media/logo.60e5e6141f2a48ab3b4426813cf5fa0c.svg",
     "static/media/01.svg": "/Tokners/static/media/01.2e5b94009f6ab307b60a48a59df327d1.svg",
+    "static/media/service_03_yellow.svg": "/Tokners/static/media/service_03_yellow.1dd6e477a44cec1cfcb7631fe8e5d7ab.svg",
     "static/media/instagram.svg": "/Tokners/static/media/instagram.a71cf1d4f2d1d85f7efa18e1d79c2c30.svg",
+    "static/media/service_02_blue.svg": "/Tokners/static/media/service_02_blue.4fcf1edcda627b23ac42f2ac40d495d0.svg",
+    "static/media/service_01_green.svg": "/Tokners/static/media/service_01_green.a9120bb4352054d934bc7d316a7fad7d.svg",
     "static/media/logo__mibile.svg": "/Tokners/static/media/logo__mibile.76d0b79374092597d2e275996d82eada.svg",
     "static/media/reddit.svg": "/Tokners/static/media/reddit.7d0b2f1d648940188c597848344448a7.svg",
     "static/media/github.svg": "/Tokners/static/media/github.3c08d98b69ace411ac7cc2122925e5b2.svg",
@@ -20,9 +23,9 @@
     "static/media/year__blue.svg": "/Tokners/static/media/year__blue.dfe86f0f52752b4bdb6faf5978dc47fe.svg",
     "static/media/year__green.svg": "/Tokners/static/media/year__green.9cc0042524f25f87d7e88a6006787863.svg",
     "static/media/year__yellow.svg": "/Tokners/static/media/year__yellow.cb5d62dbc77f62397e9630fbbd6b192d.svg",
-    "static/media/service_q_green.svg": "/Tokners/static/media/service_q_green.362b8b84bb2492fc8aaf04b417ae765f.svg",
     "static/media/service_q_red.svg": "/Tokners/static/media/service_q_red.d3265466c6cd4b2d4f998874f31978ce.svg",
     "static/media/service_q_blue.svg": "/Tokners/static/media/service_q_blue.e8325a541e4d4596caad95f5444abb94.svg",
+    "static/media/service_q_green.svg": "/Tokners/static/media/service_q_green.0cfc16d462f7620e8a32781e810f8148.svg",
     "static/media/service_q_yellow.svg": "/Tokners/static/media/service_q_yellow.6f196f51ef700a8d5e0c6be8c2c6accc.svg",
     "index.html": "/Tokners/index.html",
     "static/media/vector_creators.svg": "/Tokners/static/media/vector_creators.62ab053309cdf20a2a43d986fbf08fb3.svg",
@@ -38,11 +41,11 @@
     "static/media/buy_arrow_green.svg": "/Tokners/static/media/buy_arrow_green.154c4398ccd356f0569f559a5999a2d8.svg",
     "static/media/buy_arrow_yellow.svg": "/Tokners/static/media/buy_arrow_yellow.663e7220f4c5d55c568ed4fe2f65c880.svg",
     "static/media/service_dot.svg": "/Tokners/static/media/service_dot.0117ae80abd533fced3b96160203920c.svg",
-    "main.0b71509f.css.map": "/Tokners/static/css/main.0b71509f.css.map",
-    "main.a223ffca.js.map": "/Tokners/static/js/main.a223ffca.js.map"
+    "main.12f4f7a1.css.map": "/Tokners/static/css/main.12f4f7a1.css.map",
+    "main.7b932d20.js.map": "/Tokners/static/js/main.7b932d20.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b71509f.css",
-    "static/js/main.a223ffca.js"
+    "static/css/main.12f4f7a1.css",
+    "static/js/main.7b932d20.js"
   ]
 }
