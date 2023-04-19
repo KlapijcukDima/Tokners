@@ -7,7 +7,7 @@ import { Coming } from './Main-Page/Comming/Comming';
 // import { Details } from './Main-Page/Details/Details';
 import { Buy } from './Main-Page/Buy/Buy';
 import { Details } from './Main-Page/Details/Details';
-// import { Buy } from './Main-Page/Buy/Buy';
+import { Buy } from './Main-Page/Buy/Buy';
 import { Footer } from './Footer/Footer';
 import { Year } from './Tokens-Page/Year/Year';
 
@@ -24,11 +24,11 @@ export const App = () => {
     <div>
       <Header />
       <Hero />
-      <Info info={info} />
-      <Different different={different} />
-      <Services services={services} />
-      <Coming coming={comming} />
-      {/* <Details /> */}
+      <Info info={info}/>
+      <Different different={different}/>
+      <Services services={services}/>
+      <Coming coming={comming}/>
+      <Details details={details}/>
       <Buy buy={buy}/>
       <Footer />
       <Year year={year}/>
