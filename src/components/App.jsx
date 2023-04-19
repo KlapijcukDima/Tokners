@@ -4,13 +4,13 @@ import { Info } from './Main-Page/Info/Info';
 import { Different } from './Main-Page/Different/Different';
 import { Services } from './Main-Page/Services/Services';
 import { Coming } from './Main-Page/Comming/Comming';
-<<<<<<< HEAD
-import { Details } from './Main-Page/Details/Details';
-// import { Buy } from './Main-Page/Buy/Buy';
-=======
+<<<<<<<<< Temporary merge branch 1
 // import { Details } from './Main-Page/Details/Details';
 import { Buy } from './Main-Page/Buy/Buy';
->>>>>>> upstream/main
+=========
+import { Details } from './Main-Page/Details/Details';
+// import { Buy } from './Main-Page/Buy/Buy';
+>>>>>>>>> Temporary merge branch 2
 import { Footer } from './Footer/Footer';
 import { Year } from './Tokens-Page/Year/Year';
 
@@ -27,15 +27,7 @@ export const App = () => {
     <div>
       <Header />
       <Hero />
-<<<<<<< HEAD
-      <Info info={info}/>
-      <Different different={different}/>
-      <Services services={services}/>
-      <Coming coming={comming}/>
-      <Details details={details}/>
-      {/* <Buy /> */}
-       <Footer />
-=======
+<<<<<<<<< Temporary merge branch 1
       <Info info={info} />
       <Different different={different} />
       <Services services={services} />
@@ -44,7 +36,15 @@ export const App = () => {
       <Buy buy={buy}/>
       <Footer />
       <Year year={year}/>
->>>>>>> upstream/main
+=========
+      <Info info={info}/>
+      <Different different={different}/>
+      <Services services={services}/>
+      <Coming coming={comming}/>
+      <Details details={details}/>
+      {/* <Buy /> */}
+       <Footer />
+>>>>>>>>> Temporary merge branch 2
     </div>
   );
 };
