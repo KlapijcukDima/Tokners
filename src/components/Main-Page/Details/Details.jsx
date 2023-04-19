@@ -1,6 +1,6 @@
-import React, { useState, useCallback } from 'react';
+// import React, { useState, useCallback } from 'react';
 import scss from '../Details/Details.module.scss';
-import { useSwipeable } from 'react-swipeable';
+// import { useSwipeable } from 'react-swipeable';
 // import { ReactComponent as Background } from '../../../assets/images/png/datails_bgr.png';
 import { ReactComponent as ServiceGreen } from '../../../assets/images/svg/service_01_green.svg';
 import { ReactComponent as ServiceBlue } from '../../../assets/images/svg/service_02_blue.svg';
