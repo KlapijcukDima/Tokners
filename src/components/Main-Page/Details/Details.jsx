@@ -10,6 +10,21 @@ import { ReactComponent as NumberTwo } from '../../../assets/images/svg/02.svg';
 import { ReactComponent as NumberThree } from '../../../assets/images/svg/03.svg';
 
 export const Details = ({ details }) => {
+  // const [scrollPosition, setScrollPosition] = useState(0);
+
+  // const handleScrollLeft = () => {
+  //   if (scrollPosition !== 0) {
+  //     setScrollPosition(scrollPosition - 399);
+  //   }
+  // };
+
+  // const handleScrollRight = () => {
+  //   const maxScrollPosition = (team.length - 4) * 399;
+  //   if (scrollPosition !== maxScrollPosition) {
+  //     setScrollPosition(scrollPosition + 399);
+  //   }
+  // };
+
   return (
     <section className={scss.container}>
       {/* <Background /> */}
@@ -22,7 +37,6 @@ export const Details = ({ details }) => {
           {details.map(
             (
               {
-                number: itemNumber,
                 title: itemTitle,
                 data: itemData,
                 course: itemCourse,
@@ -79,14 +93,14 @@ export const Details = ({ details }) => {
                   <p
                     className={[scss.details__text, scss.title__text].join(' ')}
                   >
-                    <span className={scss.details__cap}>Soft cap: </span>
-                    {itemSoftCap}
+                    Soft cap:{' '}
+                    <span className={scss.details__cap}>{itemSoftCap}</span>
                   </p>
                   <p
                     className={[scss.details__text, scss.title__text].join(' ')}
                   >
-                    <span className={scss.details__cap}>Hard cap: </span>
-                    {itemHardCap}
+                    Hard cap:{' '}
+                    <span className={scss.details__cap}>{itemHardCap}</span>
                   </p>
                 </div>
               </div>

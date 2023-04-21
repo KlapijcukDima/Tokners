@@ -12,24 +12,37 @@
   &__contens {
     display: flex;
     justify-content: center;
-    gap: 20px;
-
-    // &:nth-child(2) {
-    //   position: relative;
-    //   transform: translateY(25%);
-    // }
+    gap: 10px;
+    @include for-size(tablet) {
+      gap: 20px;
+    }
   }
 
   &__container {
     background-color: $white-text-color;
     border-radius: 25px;
-    padding: 100px 92px 92px 96px;
+    padding: 20px 50px 50px 53px;
+    @include for-size(tablet) {
+      padding: 100px 92px 92px 96px;
+    }
+    @include for-size(laptop) {
+      padding: 100px 47px 92px 48px;
+    }
+    @include for-size(desktop) {
+      padding: 100px 92px 92px 96px;
+    }
 
     &__first {
       display: flex;
       align-items: center;
       flex-direction: column;
-      min-width: 323px;
+      // min-width: 323px;
+      @include for-size(laptop) {
+        min-width: 160px;
+      }
+      @include for-size(desktop) {
+        min-width: 323px;
+      }
     }
 
     &__second {
@@ -44,7 +57,10 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    transform: translate(0px, -61px);
+    transform: translate(0px, -60px);
+    @include for-size(phone) {
+      transform: translate(0px, -50px);
+    }
   }
 
   &__header__container {
@@ -55,17 +71,32 @@
   }
   &__header {
     color: $white-text-color;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: calc(54 / 48);
+    line-height: calc(54 / 36);
+    @include for-size(tablet) {
+      font-size: 48px;
+      line-height: calc(54 / 48);
+    }
   }
 
   &__number {
     position: relative;
+    @include for-size(phone) {
+      max-width: 202px;
+    }
+    @include for-size(laptop) {
+      max-width: 305px;
+      min-width: 305px;
+    }
   }
   &__image {
     position: absolute;
     z-index: 1;
+
+    @include for-size(phone) {
+      margin-top: 40px;
+    }
   }
 
   &__caption {
@@ -92,6 +123,12 @@
     line-height: calc(20 / 20);
 
     margin-bottom: 20px;
+
+    @include for-size(phone) {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: calc(20 / 18);
+    }
   }
 
   &__cap {
