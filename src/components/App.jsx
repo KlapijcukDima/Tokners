@@ -29,7 +29,6 @@ export const App = () => {
       <Details details={details}/>
       <Buy buy={buy}/>
       <Footer />
-      <Year year={year}/>
     </div>
   );
 };
