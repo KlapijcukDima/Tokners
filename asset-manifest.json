@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Tokners/static/css/main.c78e280b.css",
-    "main.js": "/Tokners/static/js/main.4e5411b4.js",
+    "main.css": "/Tokners/static/css/main.a0fb9ad6.css",
+    "main.js": "/Tokners/static/js/main.49e06925.js",
     "static/media/hero-photo.png": "/Tokners/static/media/hero-photo.98287b9e676d7d191ef6.png",
     "static/media/service_phone.png": "/Tokners/static/media/service_phone.02d76496113a4c032259.png",
     "static/media/different-color-mobile.png": "/Tokners/static/media/different-color-mobile.7753310e55f208cbe38b.png",
@@ -19,10 +19,6 @@
     "static/media/github.svg": "/Tokners/static/media/github.3c08d98b69ace411ac7cc2122925e5b2.svg",
     "static/media/vector_holders.svg": "/Tokners/static/media/vector_holders.20ee105fb19d7130e32f4213c5033866.svg",
     "static/media/only_logo.svg": "/Tokners/static/media/only_logo.80517d0ea5d8966ce448ed44c199a826.svg",
-    "static/media/year__red.svg": "/Tokners/static/media/year__red.6dfe8836b64e1dd193d15c5c6144c358.svg",
-    "static/media/year__blue.svg": "/Tokners/static/media/year__blue.dfe86f0f52752b4bdb6faf5978dc47fe.svg",
-    "static/media/year__green.svg": "/Tokners/static/media/year__green.9cc0042524f25f87d7e88a6006787863.svg",
-    "static/media/year__yellow.svg": "/Tokners/static/media/year__yellow.cb5d62dbc77f62397e9630fbbd6b192d.svg",
     "static/media/service_q_red.svg": "/Tokners/static/media/service_q_red.d3265466c6cd4b2d4f998874f31978ce.svg",
     "static/media/service_q_blue.svg": "/Tokners/static/media/service_q_blue.e8325a541e4d4596caad95f5444abb94.svg",
     "static/media/service_q_green.svg": "/Tokners/static/media/service_q_green.0cfc16d462f7620e8a32781e810f8148.svg",
@@ -41,11 +37,11 @@
     "static/media/buy_arrow_green.svg": "/Tokners/static/media/buy_arrow_green.154c4398ccd356f0569f559a5999a2d8.svg",
     "static/media/buy_arrow_yellow.svg": "/Tokners/static/media/buy_arrow_yellow.663e7220f4c5d55c568ed4fe2f65c880.svg",
     "static/media/service_dot.svg": "/Tokners/static/media/service_dot.0117ae80abd533fced3b96160203920c.svg",
-    "main.c78e280b.css.map": "/Tokners/static/css/main.c78e280b.css.map",
-    "main.4e5411b4.js.map": "/Tokners/static/js/main.4e5411b4.js.map"
+    "main.a0fb9ad6.css.map": "/Tokners/static/css/main.a0fb9ad6.css.map",
+    "main.49e06925.js.map": "/Tokners/static/js/main.49e06925.js.map"
   },
   "entrypoints": [
-    "static/css/main.c78e280b.css",
-    "static/js/main.4e5411b4.js"
+    "static/css/main.a0fb9ad6.css",
+    "static/js/main.49e06925.js"
   ]
 }
